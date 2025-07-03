@@ -6,7 +6,7 @@ body {
 #navbar {
   color: #fcd34d;
   height: 80px;
-  background-color: #800;
+  background-color: #880000;
   font-size: 32px;
   width: 100%;
   position: sticky;
@@ -233,4 +233,3 @@ body {
   color: #ffffff;
   text-shadow: 0 0 5px #fcd34d;
 }
-@media(width)
