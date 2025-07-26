@@ -121,7 +121,7 @@ font-size: 24px;
 
 #about {
   position: relative;
-  height: 200px;
+  height: 300px;
   background-color:#E6F2FF;
   width: 100%;
   color: black;
@@ -308,7 +308,7 @@ font-size: 24px;
     height: 600px;;
   }
   #about{
-    height:300px;
+    height:400px;
   }
 
 }
@@ -333,7 +333,11 @@ font-size: 24px;
 @media (max-width: 670px) {
   
   #box1{
+    height:500px;
+  }
+  #about{
     height:450px;
+
   }
 
 }
