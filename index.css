@@ -330,3 +330,10 @@ font-size: 24px;
 .but4{
   background-color:none ;
 }
+@media (max-width: 670px) {
+  
+  #box1{
+    height:450px;
+  }
+
+}
