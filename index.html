@@ -21,6 +21,9 @@
       <li><a href="index.html">Home</a></li>
        <li><a href="galary.html">Gallery</a></li>
       <li><a href="about.html">Contact</a></li>
+
+      <button id="darkmode-toggle">darkmode</button>
+
       <li><a href="login.html">Log in</a></li>
     </ul>
     <div id="header">
@@ -29,8 +32,8 @@
       <li class="hideonPhone"><a href="index.html">Home</a></li>
       <li class="hideonPhone"><a href="galary.html">Gallery</a></li>
       <li class="hideonPhone"><a href="about.html">Contact</a></li>
+        <button class="hideonPhone" id="darkmode-toggle1">darkmode</button>
       <li class="hideonPhone"><a href="login.html">Log in</a></li>
-      <!-- <li class="hideonPhone" ><button id="but4"><a href="#">Mode</a></button><li> -->
       <li onclick="shownavside()"><a id="menu_bar" href="#"><img src="menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
             viewBox="0 96 960 960" width="46"></a>
       </li>
@@ -169,6 +172,24 @@
       </div>
     </div>
   </div>
+
+  <script>
+  const togglebutton = document.getElementById('darkmode-toggle');
+  const togglebutton1 = document.getElementById('darkmode-toggle1');
+
+  function toggleDarkMode() {
+    document.body.classList.toggle('dark-mode');
+
+    // Update both button labels
+    const isDark = document.body.classList.contains('dark-mode');
+    togglebutton.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+    togglebutton1.textContent = isDark ? 'Light Mode' : 'Dark Mode';
+  }
+
+  togglebutton.addEventListener('click', toggleDarkMode);
+  togglebutton1.addEventListener('click', toggleDarkMode);
+</script>
+
 
 </body>
 

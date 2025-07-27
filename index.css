@@ -8,7 +8,6 @@ body {
   margin: 0px;
   min-height: 100vh;
 }
-
 nav ul {
   background-color:#E6F2FF ;
   font-style: none;
@@ -47,8 +46,7 @@ nav li:first-child {
   height: 100vh;
   width: 250px;
   z-index: 999;
-  background-color: rgb(255, 255, 255.);
-  backdrop-filter: blur(10px);
+  background-color: rgb(255, 255, 255,);
   display: none;
   flex-direction: column;
   align-items: flex-start;
@@ -106,7 +104,7 @@ background-color: #5D4037;
   text-decoration: none;
 }
 #button3{
-background-color: #e74c3c;
+
 height: 60px;
 width: 100px;
 border-radius: 10%;
@@ -126,12 +124,11 @@ font-size: 24px;
   width: 100%;
   color: black;
   text-align: center;
-  /* margin-top: -20px; */
 }
 
 .offer-section {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   padding: 20px;
   color: #222222;
   font-size: 24px;
@@ -163,7 +160,7 @@ font-size: 24px;
 }
 
 .offer-box {
-  margin-bottom: 20px;
+  margin-bottom: 40px;
   padding: 10px;
   background-color: #fff9e6;
   border-left: 4px solid blue;
@@ -208,7 +205,7 @@ font-size: 24px;
   padding: 40px;
   gap: 20px;
   justify-content: start;
-  border-radius: 10%;
+  border-radius: 20%;
 }
 
 .ites {
@@ -340,3 +337,77 @@ font-size: 24px;
 
   }
 }
+
+
+#darkmode-toggle{
+
+      background: none;
+      border: 1px solid rgb(255, 255, 255);
+      color: black;
+      padding: 8px 2px;
+      border-radius: 4px;
+      cursor: pointer;
+      height: 20px;
+      text-align: center;
+      margin-left: 24px;
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    #darkmode-toggle1{
+      background: none;
+      border: 1px solid rgb(255, 255, 255);
+      color: black;
+      padding: 8px 2px;
+      border-radius: 4px;
+      cursor: pointer;
+      height: 40px;
+      font-size: 16px;
+      text-align: center;
+    }
+    
+
+    #darkmode-toggle:hover {
+      background-color: rgba(224, 235, 10, 0.244);
+    }
+    .dark-mode{
+      background-color: black;
+      color:white;
+
+    }
+
+.dark-mode #about{
+  background-color: black;
+  color:white;
+}
+.dark-mode #box1{
+  background-color: black;
+  color:white;
+}
+.dark-mode .sidebar{
+  background-color: gray;
+  color:white;
+}
+.dark-mode .teacher-info{
+  color:white;
+}
+.dark-mode #guru{
+  background-color: black;
+  color:white;
+}
+.dark-mode .offer-sidebar{
+  background-color: black;
+  color:white;
+}
+.dark-mode .offer-sidebar a{
+  color:white;
+}
+.dark-mode .offer-box{
+  background-color: black;
+  color:white;
+}
+.dark-mode nav ul{
+  background-color: gray;
+  color:white;
+}
+
+
